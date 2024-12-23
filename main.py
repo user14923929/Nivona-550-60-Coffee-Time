@@ -13,7 +13,7 @@ while loop:
     balance = coffees.make.make(coffee_type, balance)
     print(f"Your new balance is {balance}.")
     time.sleep(2)
-    if balance <= 0.00:
+    if balance <= 00.00:
         print("Sorry, you don't have enough money for any more coffee.")
         time.sleep(2)
         loop = False
